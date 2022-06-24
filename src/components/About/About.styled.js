@@ -5,6 +5,7 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  grid-column: 2/3;
   border: 2px solid #fafaff;
 `;
 
