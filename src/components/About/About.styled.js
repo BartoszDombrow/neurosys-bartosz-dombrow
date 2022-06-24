@@ -5,6 +5,7 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 2px solid #fafaff;
 `;
 
 export const Alias = styled.h1`

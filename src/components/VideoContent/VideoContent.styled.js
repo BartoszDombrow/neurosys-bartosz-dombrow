@@ -5,6 +5,7 @@ export const Content = styled.div`
   align-items: center;
   grid-row: 2/3;
   grid-column: 2/3;
+  border: 2px solid #fafaff;
 `;
 
 export const Video = styled.video`

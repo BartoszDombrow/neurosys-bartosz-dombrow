@@ -6,6 +6,7 @@ export const Content = styled.div`
   justify-content: center;
   align-items: center;
   grid-column: 2/3;
+  border: 2px solid #fafaff;
 `;
 
 export const Image = styled.img`
@@ -21,7 +22,9 @@ export const IconLeft = styled.div`
   z-index: 10;
   cursor: pointer;
   user-select: none;
+  color: #fafaff;
 `;
+
 export const IconRigth = styled.div`
   position: absolute;
   top: 50%;
@@ -30,6 +33,7 @@ export const IconRigth = styled.div`
   z-index: 10;
   cursor: pointer;
   user-select: none;
+  color: #fafaff;
 `;
 
 export const SliderDiv = styled.div``;
