@@ -1,12 +1,16 @@
-import { MainWrapper, VideoBackground } from './App.styled';
-import MainContent from '../MainContent/MainContent';
-import videoBG from '../../assets/video/videoBG.mp4';
-
+import { MainWrapper } from './App.styled';
+import About from '../../components/About/About';
+import VideoContent from '../../components/VideoContent/VideoContent';
+import ImageContent from '../../components/ImageContent/ImageContent';
+import ImageSlider from '../../components/ImageSlider/ImageSlider';
+import { SliderData } from '../../components/ImageSlider/SliderData';
 function App() {
   return (
     <MainWrapper>
-      <VideoBackground src={videoBG} autoPlay loop muted />
-      <MainContent />
+      <About />
+      <VideoContent />
+      <ImageContent />
+      <ImageSlider slides={SliderData} />
     </MainWrapper>
   );
 }

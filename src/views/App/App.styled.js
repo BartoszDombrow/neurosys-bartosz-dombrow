@@ -1,15 +1,11 @@
 import styled from 'styled-components';
 
 export const MainWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 4fr 4fr 1fr;
   min-height: 100vh;
   min-width: 100vw;
-  background-color: black;
-`;
-
-export const VideoBackground = styled.video`
-  width: 100vw;
-  height: 100vh;
+  background-color: #252627;
 `;
