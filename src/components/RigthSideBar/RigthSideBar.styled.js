@@ -103,7 +103,7 @@ export const ConfirmDiv = styled.div`
 
 export const CheckBox = styled.input``;
 export const QuestionHeader = styled.h1`
-  font-size: 72px;
+  font-size: 71px;
   color: #fafaff;
 `;
 export const AnswerButton = styled.button`
