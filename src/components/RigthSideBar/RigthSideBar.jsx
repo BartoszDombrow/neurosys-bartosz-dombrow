@@ -104,6 +104,7 @@ function RigthSideBar({ isOpen, toggle, isVisable, changeVisable }) {
         />
         <Paragraph>{formErrors.message}</Paragraph>
         <CheckBox type="checkbox" required onClick={changeVisable} />
+
         <Button>Wyślij wiadomość!</Button>
       </Form>
       <ConfirmDiv isVisable={isVisable}>
