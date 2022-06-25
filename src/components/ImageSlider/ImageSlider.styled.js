@@ -10,8 +10,8 @@ export const Content = styled.div`
 `;
 
 export const Image = styled.img`
-  max-width: 100%;
-  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
 `;
 
 export const IconLeft = styled.div`
