@@ -15,13 +15,24 @@ function App() {
     setIsOpen(!isOpen);
   };
 
+  const [isVisable, setIsVisable] = useState(true);
+
+  const changeVisable = () => {
+    setIsVisable(!isVisable);
+  };
+
   return (
     <MainWrapper>
       <About />
       <VideoContent />
       <ImageContent />
       <ImageSlider slides={SliderData} />
-      <RigthSideBar isOpen={isOpen} toggle={toggle} />
+      <RigthSideBar
+        isOpen={isOpen}
+        toggle={toggle}
+        isVisable={isVisable}
+        changeVisable={changeVisable}
+      />
       <LeftSideBar isOpen={isOpen} toggle={toggle} />
       <Footer toggle={toggle} />
     </MainWrapper>

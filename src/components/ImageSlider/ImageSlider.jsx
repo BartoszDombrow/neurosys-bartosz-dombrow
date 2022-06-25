@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { SliderData } from './SliderData';
 import { Content, Image, IconLeft, IconRigth, SliderDiv } from './ImageSlider.styled';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';

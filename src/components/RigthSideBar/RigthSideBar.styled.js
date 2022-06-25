@@ -32,6 +32,7 @@ export const Form = styled.form`
   justify-content: space-around;
   align-items: center;
   height: 70%;
+  display: ${({ isVisable }) => (isVisable ? 'flex' : 'none')};
 `;
 
 export const ExitCross = styled(AiOutlineCloseCircle)`
@@ -48,6 +49,7 @@ export const FormName = styled.input`
   height: 80px;
   width: 80%;
   background-color: transparent;
+  padding: 10px 10px;
   border: 1px solid #fafaff;
   border-radius: 20px;
   color: #fafaff;
@@ -56,14 +58,16 @@ export const FormEmail = styled.input`
   height: 80px;
   width: 80%;
   background-color: transparent;
+  padding: 10px 10px;
   border: 1px solid #fafaff;
   border-radius: 20px;
   color: #fafaff;
 `;
-export const FormText = styled.input`
+export const FormText = styled.textarea`
   height: 300px;
   width: 80%;
   background-color: transparent;
+  padding: 10px 10px;
   border: 1px solid #fafaff;
   border-radius: 20px;
   color: #fafaff;
@@ -78,6 +82,7 @@ export const Button = styled.button`
   margin-bottom: 20px;
   background-color: transparent;
   border: 1px solid #fafaff;
+  border-radius: 20px;
   font-size: 36px;
   color: #fafaff;
   transition: 0.3s ease-in-out;
@@ -86,3 +91,17 @@ export const Button = styled.button`
     color: rgb(37, 38, 39);
   }
 `;
+
+export const ConfirmDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 70%;
+  background-color: red;
+  display: ${({ isVisable }) => (isVisable ? 'none' : 'flex')};
+`;
+
+export const CheckBox = styled.input``;
+export const QuestionHeader = styled.h1``;
+export const AnswerButton = styled.button``;
