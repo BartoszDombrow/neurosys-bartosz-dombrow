@@ -98,10 +98,26 @@ export const ConfirmDiv = styled.div`
   justify-content: space-around;
   align-items: center;
   height: 70%;
-  background-color: red;
   display: ${({ isVisable }) => (isVisable ? 'none' : 'flex')};
 `;
 
 export const CheckBox = styled.input``;
-export const QuestionHeader = styled.h1``;
-export const AnswerButton = styled.button``;
+export const QuestionHeader = styled.h1`
+  font-size: 72px;
+  color: #fafaff;
+`;
+export const AnswerButton = styled.button`
+  height: 80px;
+  width: 80%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: 1px solid #fafaff;
+  border-radius: 20px;
+  font-size: 36px;
+  color: #fafaff;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    background-color: #fafaff;
+    color: rgb(37, 38, 39);
+  }
+`;
