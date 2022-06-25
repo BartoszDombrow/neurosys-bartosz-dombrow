@@ -10,7 +10,7 @@ import {
 } from './Footer.styled';
 import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineYoutube } from 'react-icons/ai';
 
-function Footer() {
+function Footer({ toggle }) {
   const footerItems = [
     {
       icon: <AiOutlineFacebook />,
@@ -28,6 +28,7 @@ function Footer() {
       link: 'https://www.youtube.com/watch?v=mQ7h1ujKiG4',
     },
   ];
+
   return (
     <Content>
       <FooterMenu>
@@ -41,7 +42,7 @@ function Footer() {
             </FooterItem>
           );
         })}
-        <Button>Kontakt</Button>
+        <Button onClick={toggle}>Kontakt</Button>
       </FooterMenu>
     </Content>
   );
