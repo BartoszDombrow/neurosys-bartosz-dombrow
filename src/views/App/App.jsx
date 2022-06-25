@@ -6,7 +6,8 @@ import ImageContent from '../../components/ImageContent/ImageContent';
 import ImageSlider from '../../components/ImageSlider/ImageSlider';
 import { SliderData } from '../../components/ImageSlider/SliderData';
 import Footer from '../../components/Footer/Footer';
-import SideBar from '../../components/SideBar/SideBar';
+import RigthSideBar from '../../components/RigthSideBar/RigthSideBar';
+import LeftSideBar from '../../components/LeftSideBar/LeftSideBar';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,8 @@ function App() {
       <VideoContent />
       <ImageContent />
       <ImageSlider slides={SliderData} />
-      <SideBar isOpen={isOpen} toggle={toggle} />
+      <RigthSideBar isOpen={isOpen} toggle={toggle} />
+      <LeftSideBar isOpen={isOpen} toggle={toggle} />
       <Footer toggle={toggle} />
     </MainWrapper>
   );
