@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/neurosys-bartosz-dombrow/static/js/main.53f4b18b.js",
+    "static/media/videoBG.mp4": "/neurosys-bartosz-dombrow/static/media/videoBG.c12c78b9c5c0bbc132c1.mp4",
+    "static/media/okiBG.jpg": "/neurosys-bartosz-dombrow/static/media/okiBG.8bfec1d69f504fea1ac8.jpg",
+    "static/media/oki.jpg": "/neurosys-bartosz-dombrow/static/media/oki.49cfef305ae1b977bc89.jpg",
+    "static/media/oki1.jpg": "/neurosys-bartosz-dombrow/static/media/oki1.fc80f310e7373e693b09.jpg",
+    "static/media/oki3.jpg": "/neurosys-bartosz-dombrow/static/media/oki3.b617d03b791d3b7e896c.jpg",
+    "static/media/oki4.jpg": "/neurosys-bartosz-dombrow/static/media/oki4.f5f130753fbc5107a866.jpg",
+    "index.html": "/neurosys-bartosz-dombrow/index.html",
+    "main.53f4b18b.js.map": "/neurosys-bartosz-dombrow/static/js/main.53f4b18b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.53f4b18b.js"
+  ]
+}
