@@ -43,11 +43,11 @@ export const QuestionsData = [
   },
 
   {
-    question: 'Oki to',
+    question: 'The Beatels powstali w?',
     answerOptions: [
-      { answerText: 'wokalista pop', isCorrect: false },
-      { answerText: 'raper', isCorrect: true },
-      { answerText: 'nauczyciel', isCorrect: false },
+      { answerText: '1950r', isCorrect: false },
+      { answerText: '1970r', isCorrect: false },
+      { answerText: '1960r', isCorrect: true },
     ],
   },
   {
@@ -56,83 +56,6 @@ export const QuestionsData = [
       { answerText: 'instrument muzyczny', isCorrect: true },
       { answerText: 'przyborem szkolnym', isCorrect: false },
       { answerText: 'narzędziem', isCorrect: false },
-    ],
-  },
-
-  {
-    question: 'Oki to',
-    answerOptions: [
-      { answerText: 'wokalista pop', isCorrect: false },
-      { answerText: 'raper', isCorrect: true },
-      { answerText: 'nauczyciel', isCorrect: false },
-    ],
-  },
-  {
-    question: 'Gitara to',
-    answerOptions: [
-      { answerText: 'instrument muzyczny', isCorrect: true },
-      { answerText: 'przyborem szkolnym', isCorrect: false },
-      { answerText: 'narzędziem', isCorrect: false },
-    ],
-  },
-
-  {
-    question: 'Oki to',
-    answerOptions: [
-      { answerText: 'wokalista pop', isCorrect: false },
-      { answerText: 'raper', isCorrect: true },
-      { answerText: 'nauczyciel', isCorrect: false },
-    ],
-  },
-  {
-    question: 'Gitara to',
-    answerOptions: [
-      { answerText: 'instrument muzyczny', isCorrect: true },
-      { answerText: 'przyborem szkolnym', isCorrect: false },
-      { answerText: 'narzędziem', isCorrect: false },
-    ],
-  },
-
-  {
-    question: 'Oki to',
-    answerOptions: [
-      { answerText: 'wokalista pop', isCorrect: false },
-      { answerText: 'raper', isCorrect: true },
-      { answerText: 'nauczyciel', isCorrect: false },
-    ],
-  },
-  {
-    question: 'Gitara to',
-    answerOptions: [
-      { answerText: 'instrument muzyczny', isCorrect: true },
-      { answerText: 'przyborem szkolnym', isCorrect: false },
-      { answerText: 'narzędziem', isCorrect: false },
-    ],
-  },
-
-  {
-    question: 'Oki to',
-    answerOptions: [
-      { answerText: 'wokalista pop', isCorrect: false },
-      { answerText: 'raper', isCorrect: true },
-      { answerText: 'nauczyciel', isCorrect: false },
-    ],
-  },
-  {
-    question: 'Gitara to',
-    answerOptions: [
-      { answerText: 'instrument muzyczny', isCorrect: true },
-      { answerText: 'przyborem szkolnym', isCorrect: false },
-      { answerText: 'narzędziem', isCorrect: false },
-    ],
-  },
-
-  {
-    question: 'Oki to',
-    answerOptions: [
-      { answerText: 'wokalista pop', isCorrect: false },
-      { answerText: 'raper', isCorrect: true },
-      { answerText: 'nauczyciel', isCorrect: false },
     ],
   },
 ];

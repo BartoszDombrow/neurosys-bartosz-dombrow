@@ -7,11 +7,12 @@ export const Content = styled.div`
   align-items: center;
   grid-row: 1/2;
   border: 2px solid #fafaff;
+  border-radius: 20px;
 `;
 
 export const Image = styled.img`
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
 `;
 
 export const IconLeft = styled.div`

@@ -6,6 +6,7 @@ export const Content = styled.div`
   grid-row: 2/3;
   grid-column: 2/3;
   border: 2px solid #fafaff;
+  border-radius: 20px;
 `;
 
 export const Video = styled.video`

@@ -42,6 +42,12 @@ function RigthSideBar({ isOpen, toggle, isVisable, changeVisable }) {
     setIsSubmit(true);
   };
 
+  const myAlert = () => {
+    if (isSubmit === true) {
+      alert('Pomyślnie wysłano wiadomość!');
+    }
+  };
+
   const validate = (values) => {
     const errors = {};
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
@@ -105,7 +111,7 @@ function RigthSideBar({ isOpen, toggle, isVisable, changeVisable }) {
         <Paragraph>{formErrors.message}</Paragraph>
         <CheckBox type="checkbox" required onClick={changeVisable} />
 
-        <Button>Wyślij wiadomość!</Button>
+        <Button onClick={myAlert}>Wyślij wiadomość!</Button>
       </Form>
       <ConfirmDiv isVisable={isVisable}>
         <QuestionHeader>{QuestionsData[currentQuestion].question}</QuestionHeader>

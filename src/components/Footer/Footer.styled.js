@@ -7,6 +7,7 @@ export const Content = styled.div`
   grid-row: 3/4;
   grid-column: 1/4;
   border: 2px solid #fafaff;
+  border-radius: 20px;
 `;
 
 export const Button = styled.button`
@@ -14,10 +15,16 @@ export const Button = styled.button`
   justify-self: flex-end;
   margin-left: 40px;
   padding: 5px 10px;
-  border: 1px solid #fafaff;
+  border: 2px solid #fafaff;
+  border-radius: 20px;
   font-size: 36px;
   color: #fafaff;
+
   cursor: pointer;
+  &:hover {
+    background-color: #fafaff;
+    color: rgb(37, 38, 39);
+  }
 `;
 
 export const FooterMenu = styled.ul`
@@ -26,6 +33,7 @@ export const FooterMenu = styled.ul`
   justify-content: space-around;
   width: 100%;
   height: 100%;
+  transition: 3ms ease-in;
 `;
 
 export const FooterItem = styled.li`

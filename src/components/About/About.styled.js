@@ -7,6 +7,7 @@ export const Content = styled.div`
   align-items: center;
   grid-column: 2/3;
   border: 2px solid #fafaff;
+  border-radius: 20px;
 `;
 
 export const Alias = styled.h1`
